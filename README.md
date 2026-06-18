@@ -66,11 +66,11 @@ Install dependencies
 
 npm install
 Configure MongoDB connection
-
 Start the server
-
 npm start
-Future Enhancements
+
+
+##Future Enhancements
 Timer Based Quiz
 
 Category-wise Quizzes
