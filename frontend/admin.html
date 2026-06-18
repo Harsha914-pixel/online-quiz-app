@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Login</title>
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="loginBox">
+    <h2>Admin Login</h2>
+
+    <input type="text" id="username" placeholder="Username"><br><br>
+    <input type="password" id="password" placeholder="Password"><br><br>
+
+    <button onclick="login()">Login</button>
+</div>
+
+<hr>
+
+<div id="adminPanel" style="display:none;">
+    <h2>Add Quiz Question</h2>
+
+    <input type="text" id="question" placeholder="Question"><br><br>
+
+    <input type="text" id="option1" placeholder="Option 1"><br><br>
+    <input type="text" id="option2" placeholder="Option 2"><br><br>
+    <input type="text" id="option3" placeholder="Option 3"><br><br>
+    <input type="text" id="option4" placeholder="Option 4"><br><br>
+
+    <input type="text" id="answer" placeholder="Correct Answer"><br><br>
+
+    <button onclick="addQuestion()">Add Question</button>
+    
+<hr>
+
+<h3>User Scores</h3>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Rank</th>
+            <th>User</th>
+            <th>Score</th>
+        </tr>
+    </thead>
+
+    <tbody id="scoreTable"></tbody>
+</table>
+
+<hr>
+
+    <h3>All Questions</h3>
+    <div id="questionList"></div>
+</div>
+
+<script src="js/admin.js"></script>
+
+</body>
+</html>
