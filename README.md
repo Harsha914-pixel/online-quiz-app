@@ -79,8 +79,6 @@ Difficulty Levels
 
 Certificate Generation
 
-Quiz Analytics Dashboard
-
 Dark Mode
 
 Author
